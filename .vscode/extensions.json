@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "dprint.dprint",
-        "golang.go"
+        "golang.go",
+        "danielsanmedium.dscodegpt"
     ]
 }
