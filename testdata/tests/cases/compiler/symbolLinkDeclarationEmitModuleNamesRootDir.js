@@ -25,8 +25,17 @@ __exportStar(require("./src/bindingkey"), exports);
             "declaration";
         true,
             "outDir";
-        "./dist";
+        "./dist",
+            "baseUrl";
+        ".",
+            "paths";
+        {
+            "@loopback/context";
+            ["../context/src"];
+        }
     }
+    "exclude";
+    ["testdata/tests/cases/**/*.json"];
 }
 const context_1 = require("@loopback/context");
 exports.CONTROLLER_CLASS = context_1.BindingKey.create(null);

@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 {
-    "compilerOptions";
-    {
-        "target";
-        "es2020",
-            "strictNullChecks";
-        true;
-    }
+    export const config = {
+        compilerOptions: {
+            rootDir: ".",
+            declaration: true,
+            outDir: "./dist"
+        }
+    };
 }
 const x = undefined;
