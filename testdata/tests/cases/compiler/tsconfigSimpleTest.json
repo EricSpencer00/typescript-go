@@ -1,0 +1,13 @@
+// @filename: tsconfig.json
+{
+    export const config = {
+        compilerOptions: {
+            rootDir: ".",
+            declaration: true,
+            outDir: "./dist"
+        }
+    };    
+}
+// @filename: foo.ts
+export {};
+const x: string = undefined;

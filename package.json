@@ -47,5 +47,8 @@
     "volta": {
         "node": "20.5.1",
         "npm": "8.19.4"
+    },
+    "dependencies": {
+        "@loopback/context": "^7.0.11"
     }
 }
